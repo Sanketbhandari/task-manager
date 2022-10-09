@@ -9,7 +9,7 @@ module.exports = {
   },
   networks: {
     hardhat: {
-      chainId: 1337,
+      chainId: 0x13881,
     },
     matic: {
       url: process.env.REACT_APP_MATIC_RPC,
