@@ -11,8 +11,8 @@ module.exports = {
     hardhat: {
       chainId: 1337,
     },
-    goerli: {
-      url: process.env.REACT_APP_GOERLI_RPC,
+    matic: {
+      url: process.env.REACT_APP_MATIC_RPC,
       accounts: [process.env.PRI_KEY],
     },
   },
